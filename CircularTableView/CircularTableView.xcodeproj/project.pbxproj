@@ -13,6 +13,7 @@
 		23A802411D437923006D20A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A8023F1D437923006D20A0 /* Main.storyboard */; };
 		23A802431D437923006D20A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A802421D437923006D20A0 /* Assets.xcassets */; };
 		23A802461D437923006D20A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A802441D437923006D20A0 /* LaunchScreen.storyboard */; };
+		23A8024F1D43805E006D20A0 /* SingleFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A8024E1D43805E006D20A0 /* SingleFingerRotationGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		23A802421D437923006D20A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23A802451D437923006D20A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A802471D437923006D20A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A8024D1D43805E006D20A0 /* SingleFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		23A8024E1D43805E006D20A0 /* SingleFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		23A802351D437923006D20A0 /* CircularTableView */ = {
 			isa = PBXGroup;
 			children = (
+				23A8024D1D43805E006D20A0 /* SingleFingerRotationGestureRecognizer.h */,
+				23A8024E1D43805E006D20A0 /* SingleFingerRotationGestureRecognizer.m */,
 				23A802391D437923006D20A0 /* AppDelegate.h */,
 				23A8023A1D437923006D20A0 /* AppDelegate.m */,
 				23A8023C1D437923006D20A0 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				23A8023E1D437923006D20A0 /* ViewController.m in Sources */,
 				23A8023B1D437923006D20A0 /* AppDelegate.m in Sources */,
+				23A8024F1D43805E006D20A0 /* SingleFingerRotationGestureRecognizer.m in Sources */,
 				23A802381D437923006D20A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
